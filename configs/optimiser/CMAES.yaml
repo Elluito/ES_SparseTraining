@@ -1,0 +1,6 @@
+# @package optimiser
+name: CMAES
+
+population: 30
+epochs: 30
+eigen_start: 0

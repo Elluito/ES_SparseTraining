@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - dataset: MNIST
+  - optimiser: CMAES
+  - hydra
+  - override hydra/launcher: joblib
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+wandb: 0
